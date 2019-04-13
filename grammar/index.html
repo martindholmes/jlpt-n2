@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JLPT N2 Grammar</title>
+    <style>
+      <!--
+      body {
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+      }
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+      }
+      table.grammarTable {
+        border-collapse: collapse;
+        border: solid 1pt lightgray;
+        margin: 1em;
+      }
+      table.grammarTable td {
+        padding: 0.25em;
+        border: solid 1pt lightgray;
+        vertical-align: top;
+        min-width: 6em;
+      }
+      table.grammarTable thead td {
+        font-size: 120%;
+        text-align: center;
+        background-color: #d0d0d0;
+      }
+      table.grammarTable td>div.collapsed {
+        max-height: 2em;
+        overflow: hidden;
+      }
+      table.grammarTable td.expando{
+        color: darkred;
+        cursor: pointer;
+        whitespace: nowrap;
+      }
+      table.grammarTable td.expando::before{
+        content: "\279D";
+        float: left;
+      }
+       table.grammarTable tr.expanded td.expando::before{
+        transform: rotate(90deg);
+        float: left;
+      }
+      table.grammarTable tr.expanded td>div.collapsed{
+        max-height: none;
+      }
+      -->        
+    </style>
+    <script>
+      //<![CDATA[
+      <!--
+      function setupTable(){
+        console.log('Setting up table');
+        var cells = document.querySelectorAll('tbody td>div');
+        for (var i=0; i<cells.length; i++){
+          cells[i].classList.add('collapsed');
+          //console.log(cells[i].getAttribute('class'));
+        }
+        var cells = document.querySelectorAll('tbody td:first-of-type');
+        for (var i=0; i<cells.length; i++){
+          cells[i].classList.add('expando');
+          cells[i].addEventListener('click', function(){this.parentNode.classList.toggle('expanded')});
+        }
+      }
+      
+      window.addEventListener('load', setupTable);
+      
+
+      //-->
+      //]]>
+    </script>
+
+  </head>
+  <body>
+    <h1>JLPT N2 Grammar</h1>
+    <h2>Grammar points, explanations and resources</h2>
+    <table class="grammarTable">
+      <thead>
+        <tr>
+          <td>表現</td>
+          <td>説明</td>
+          <td>接続</td>
+          <td>例文</td>
+          <td>リンク</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="vzz_5hm_khb">
+          <td><div>ものがある</div></td>
+          <td><div>Something exists, something has a feature or a quality; it seems or feels
+              something is the case; expresses strong opinion</div></td>
+          <td><div>Vる　＋<br /> Aい　＋<br /> na な　＋</div></td>
+          <td><div>家族に会うと私の心に複雑なものがある。<br />
+              <a href="http://www.jgram.org/pages/viewOne.php?tagE=monogaaru">More
+              examples</a></div></td>
+          <td><div>
+              <a href="https://www.youtube.com/watch?v=EDqi3eKbW4E">日本語の森</a>
+              <br />
+              <a
+                href="https://japanesetest4you.com/flashcard/learn-jlpt-n2-grammar-%e3%82%82%e3%81%ae%e3%81%8c%e3%81%82%e3%82%8b-mono-ga-aru/"
+                >jt4you</a>
+              <br />
+              <a href="https://j-nihongo.com/monogaaru/">j-nihongo</a>
+              <br />
+              <a href="http://www.jgram.org/pages/viewOne.php?tagE=monogaaru">jgram</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
